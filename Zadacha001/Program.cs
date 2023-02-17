@@ -5,10 +5,15 @@
 
 
 Console.Clear();
+Console.Clear();
 Console.Write("Введите число: ");
 int number =int.Parse(Console.ReadLine());
-int sqr = number * number;
-Console.WriteLine($"Квадрат числа {number} -> {sqr}({number * number})");
 
-int sqr1 = Convert.ToInt32(Math.Pow(number, 2));
-Console.WriteLine($"Квадрат числа {number} -> {sqr1}");
+Console.WriteLine($"{Math.Pow(b, 2) == a}");
+if(Math.Pow(b, 2) == a)
+{
+    Console.WriteLine("a квадрат b");
+}
+else
+{
+    Console.WriteLine("a не квадрат b");
